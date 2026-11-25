@@ -13,10 +13,10 @@ Entry (130 chars):
 ## Run it
 
 ```sh
-python3 src/main.py
+python3 main.py
 ```
 
-Writes `/output/entry.txt` (stdlib only, no dependencies).
+Writes `/output/entry.txt` via `main.py` at the repo root (stdlib only, no dependencies; pass an output path as the first argument to override it).
 
 ---
 
